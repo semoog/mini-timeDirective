@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="timeApp">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Time Directive App</title>
   </head>
-  <body>
+  <body ng-controller="mainCtrl">
 
+    <show-time name="mainCtrlName"></show-time>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js" charset="utf-8"></script>
+    <script src="js/app.js"></script>
+    <script src="js/mainCtrl.js"></script>
+    <script src="js/timeDirective.js"></script>
   </body>
 </html>
